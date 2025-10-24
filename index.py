@@ -29,7 +29,7 @@ async def beemoviescript():
         await asyncio.sleep(30)
         await bot.change_presence(activity=discord.Game(name="with foxes!"))
         await asyncio.sleep(30)
-        await bot.change_presence(name="Preparing the clanker revolution")
+        await bot.change_presence(activity=discord.Custom(name="Preparing the clanker revolution"))
         await asyncio.sleep(30)
 
 @bot.event
