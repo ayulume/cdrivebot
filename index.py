@@ -141,7 +141,7 @@ async def mod_error(ctx, error):
 @bot.command(name="welcome")
 async def welcome_command(ctx):
     embed = discord.Embed(
-        title="Welcome to C:\ Drive!"
+        title="Welcome to C:\ Drive!",
         description="Don't forget to read our rules in https://discord.com/channels/1307676679627477032/1307678764452413492 \nTu parles français ? On a un superbe salon francophone ! => https://discord.com/channels/1307676679627477032/1431326790634442884"
     )
 # Help command
