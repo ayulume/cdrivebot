@@ -177,7 +177,7 @@ async def help_command(ctx):
 
     embed.add_field(
         name="ℹ️ Misc",
-        value="`There aren't any fun commands for now. So 1984`",
+        value="`$welcome` - Someone just joined? Greet them with this command! (please don't spam it lmao)",
         inline=False
     )
 
